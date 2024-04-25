@@ -1,0 +1,60 @@
+@media (min-width:768px){
+    /* Menú */
+    section.menu{
+        padding: 1rem 2rem;
+    }
+
+    /* Header */
+    section.title{
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .title__profile{
+        width: 146px;
+        height: 146px;
+        border-radius: 50%;
+    }
+
+    /* About */
+    section.about{
+        padding: 2rem;
+        gap: 10px;
+    }
+
+    /* Skills y Hobbies*/
+    section.skills, section.hobbies{
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .skills__box, .hobbies__box{
+        width: 27%;
+    }
+
+    /* Academic */
+    .academic__courses__box{
+        width: 30%;
+    }
+
+    .academic__courses__item__img{
+        width: 125%;
+    }
+
+    /* Contacto */
+    .formcontato__form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formcontato__input{
+        height: 56px;
+    }
+}

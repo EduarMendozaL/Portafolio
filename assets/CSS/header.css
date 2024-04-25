@@ -1,0 +1,32 @@
+section.title{
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.title__profile{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+}
+
+.title__container{
+    gap: 1rem;
+}
+
+.title__bio{
+    font-size: 22px;
+}
+
+.title__subsection{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.title__network{
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    position: relative;
+    left: -40px;
+    font-size: 14px;
+}

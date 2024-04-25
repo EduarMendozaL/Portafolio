@@ -1,0 +1,10 @@
+section.footer{
+    background-color: #FFFFFF;
+    padding: 2rem;
+    gap: 10px;
+}
+
+.footer__rodape{
+    font-size: 1rem;
+    text-align: center;
+}

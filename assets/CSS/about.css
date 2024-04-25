@@ -1,0 +1,17 @@
+section.about{
+    background-color: #EAF2FD;
+    padding: 1rem;
+    gap: 10px;
+}
+
+.about__container{
+    gap: 1rem;
+}
+
+.about__title{
+    font-size: 22px;
+}
+
+.about__paragraph{
+    font-size: 14px;
+}

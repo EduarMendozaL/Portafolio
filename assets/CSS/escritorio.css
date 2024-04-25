@@ -1,0 +1,175 @@
+@media (min-width:1300px){
+    /* Menú */
+    section.menu{
+        padding: 2rem 6rem;
+    }
+
+    .menu__list{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .menu__list__item__contato{
+        display: none;
+    }
+
+    /* Header/Title */
+    section.title{
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 6rem;
+    }
+
+    .title__profile{
+        width: 368px;
+        height: 368px;
+        margin-bottom: 50px;
+        border-radius: 50%;
+    }
+
+    .title__container{
+        gap: 24px;
+    }
+
+    .title__bio{
+        font-size: 52px;
+    }
+
+    .title__subsection{
+        font-size: 22px;
+    }
+
+    .title__network{
+        gap: 2rem;
+    }
+
+    /* About */
+    section.about{
+        padding: 4rem 6rem;
+        gap: 10px;
+    }
+
+    .about__title{
+        font-size: 2rem;
+    }
+
+    .about__paragraph{
+        font-size: 1rem;
+        width: 60%;
+    }
+
+    /* Skills y Hobbies */
+    section.skills, section.hobbies{
+        padding: 2rem 6rem;
+        gap: 2rem;
+    }
+
+    .skills__title, .hobbies__title{
+        font-size: 2rem;
+    }
+
+    .skills__line, .hobbies__line{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    /* Academic */
+    section.academic{
+        padding: 82px 6rem;
+        gap: 2rem;
+    }
+
+    .academic__title{
+        font-size: 2rem;
+    }
+
+    .academic__courses__box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /* Experiencia */
+    section.experience{
+        padding: 0rem 6rem;
+        gap: 2rem;
+    }
+
+    .experience__section__title{
+        font-size: 2rem;
+    }
+
+    .experiencie__box{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .experiencie__box:nth-child(3),
+    .experiencie__box:nth-child(5){
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .experience__info{
+        gap: 0.5rem;
+        width: 35%;
+    }
+
+    .experience__title{
+        font-size: 22px;
+    }
+
+    .experience__text{
+        font-size: 1rem;
+    }
+
+    .experiencia__botao--repo{
+        width: 116px;
+        height: 51px;
+        padding: 1rem;
+        gap: 10px;
+    }
+
+    .experience__botao--demo{
+        width: 105px;
+        height: 51px;
+        padding: 1rem;
+        gap: 10px;
+    }
+
+    /* Contacto */
+    section.formcontato{
+        padding: 4rem 6rem;
+        gap: 10px;
+    }
+
+    .formcontato__contacto{
+        display: flex;
+        padding: 4rem 0rem 0rem 0rem;
+        gap: 1rem;
+    }
+
+    .formcontato--esquerda{
+        display: flex;
+    }
+
+    .formcontato__text{
+        gap: 2rem;
+    }
+
+    .formcontato__text h2{
+        font-size: 2rem;
+    } 
+
+    .formcontato__form{
+        width: 100%;
+    }
+
+    .formcontato__botao{
+        width: 144px;
+        height: 51px;
+        padding: 1rem;
+        gap: 10px;
+    }
+}
